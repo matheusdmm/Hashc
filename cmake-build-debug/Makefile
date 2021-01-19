@@ -142,33 +142,6 @@ Hashc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/build
 .PHONY : Hashc/fast
 
-main.obj: main.c.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/main.c.s
-.PHONY : main.c.s
-
 src/hash_table.obj: src/hash_table.c.obj
 
 .PHONY : src/hash_table.obj
@@ -195,6 +168,33 @@ src/hash_table.s: src/hash_table.c.s
 src/hash_table.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/src/hash_table.c.s
 .PHONY : src/hash_table.c.s
+
+src/main.obj: src/main.c.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/src/main.c.obj
+.PHONY : src/main.c.obj
+
+src/main.i: src/main.c.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 src/prime.obj: src/prime.c.obj
 
@@ -232,12 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Hashc
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... src/hash_table.obj
 	@echo ... src/hash_table.i
 	@echo ... src/hash_table.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 	@echo ... src/prime.obj
 	@echo ... src/prime.i
 	@echo ... src/prime.s

@@ -74,13 +74,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Matheus/Desktop/Hashc/main.c">
-			<Option target="Hashc"/>
-		</Unit>
 		<Unit filename="C:/Users/Matheus/Desktop/Hashc/src/hash_table.c">
 			<Option target="Hashc"/>
 		</Unit>
 		<Unit filename="C:/Users/Matheus/Desktop/Hashc/src/hash_table.h">
+			<Option target="Hashc"/>
+		</Unit>
+		<Unit filename="C:/Users/Matheus/Desktop/Hashc/src/main.c">
 			<Option target="Hashc"/>
 		</Unit>
 		<Unit filename="C:/Users/Matheus/Desktop/Hashc/src/prime.c">

@@ -76,18 +76,18 @@ include CMakeFiles/Hashc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Hashc.dir/flags.make
 
-CMakeFiles/Hashc.dir/main.c.obj: CMakeFiles/Hashc.dir/flags.make
-CMakeFiles/Hashc.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Matheus\Desktop\Hashc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Hashc.dir/main.c.obj"
-	C:\minGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Hashc.dir\main.c.obj   -c C:\Users\Matheus\Desktop\Hashc\main.c
+CMakeFiles/Hashc.dir/src/main.c.obj: CMakeFiles/Hashc.dir/flags.make
+CMakeFiles/Hashc.dir/src/main.c.obj: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Matheus\Desktop\Hashc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Hashc.dir/src/main.c.obj"
+	C:\minGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Hashc.dir\src\main.c.obj   -c C:\Users\Matheus\Desktop\Hashc\src\main.c
 
-CMakeFiles/Hashc.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Hashc.dir/main.c.i"
-	C:\minGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Matheus\Desktop\Hashc\main.c > CMakeFiles\Hashc.dir\main.c.i
+CMakeFiles/Hashc.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Hashc.dir/src/main.c.i"
+	C:\minGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Matheus\Desktop\Hashc\src\main.c > CMakeFiles\Hashc.dir\src\main.c.i
 
-CMakeFiles/Hashc.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Hashc.dir/main.c.s"
-	C:\minGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Matheus\Desktop\Hashc\main.c -o CMakeFiles\Hashc.dir\main.c.s
+CMakeFiles/Hashc.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Hashc.dir/src/main.c.s"
+	C:\minGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Matheus\Desktop\Hashc\src\main.c -o CMakeFiles\Hashc.dir\src\main.c.s
 
 CMakeFiles/Hashc.dir/src/hash_table.c.obj: CMakeFiles/Hashc.dir/flags.make
 CMakeFiles/Hashc.dir/src/hash_table.c.obj: ../src/hash_table.c
@@ -117,14 +117,14 @@ CMakeFiles/Hashc.dir/src/prime.c.s: cmake_force
 
 # Object files for target Hashc
 Hashc_OBJECTS = \
-"CMakeFiles/Hashc.dir/main.c.obj" \
+"CMakeFiles/Hashc.dir/src/main.c.obj" \
 "CMakeFiles/Hashc.dir/src/hash_table.c.obj" \
 "CMakeFiles/Hashc.dir/src/prime.c.obj"
 
 # External object files for target Hashc
 Hashc_EXTERNAL_OBJECTS =
 
-Hashc.exe: CMakeFiles/Hashc.dir/main.c.obj
+Hashc.exe: CMakeFiles/Hashc.dir/src/main.c.obj
 Hashc.exe: CMakeFiles/Hashc.dir/src/hash_table.c.obj
 Hashc.exe: CMakeFiles/Hashc.dir/src/prime.c.obj
 Hashc.exe: CMakeFiles/Hashc.dir/build.make

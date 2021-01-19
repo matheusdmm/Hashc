@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Hashc.dir/main.c.obj"
   "CMakeFiles/Hashc.dir/src/hash_table.c.obj"
+  "CMakeFiles/Hashc.dir/src/main.c.obj"
   "CMakeFiles/Hashc.dir/src/prime.c.obj"
   "Hashc.exe"
   "Hashc.exe.manifest"

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Matheus/Desktop/Hashc/src/hash_table.c
+stdlib.h
+-
+string.h
+-
+math.h
+-
+hash_table.h
+C:/Users/Matheus/Desktop/Hashc/src/hash_table.h
+
+C:/Users/Matheus/Desktop/Hashc/src/hash_table.h
+
+C:/Users/Matheus/Desktop/Hashc/src/main.c
+stdio.h
+-
+hash_table.h
+C:/Users/Matheus/Desktop/Hashc/src/hash_table.h
+
+C:/Users/Matheus/Desktop/Hashc/src/prime.c
+math.h
+-
+prime.h
+C:/Users/Matheus/Desktop/Hashc/src/prime.h
+
+C:/Users/Matheus/Desktop/Hashc/src/prime.h
+
