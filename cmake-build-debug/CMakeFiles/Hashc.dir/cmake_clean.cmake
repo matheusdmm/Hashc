@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hashc.dir/src/hash_table.c.obj"
   "CMakeFiles/Hashc.dir/src/main.c.obj"
   "CMakeFiles/Hashc.dir/src/prime.c.obj"
+  "CMakeFiles/Hashc.dir/src/xmalloc.c.obj"
   "Hashc.exe"
   "Hashc.exe.manifest"
   "Hashc.pdb"

@@ -5,7 +5,7 @@
 #ifndef HASHC_PRIME_H
 #define HASHC_PRIME_H
 
-#endif //HASHC_PRIME_H
-
 int is_prime(const int x);
 int next_prime(int x);
+
+#endif //HASHC_PRIME_H

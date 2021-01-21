@@ -89,6 +89,12 @@
 		<Unit filename="C:/Users/Matheus/Desktop/Hashc/src/prime.h">
 			<Option target="Hashc"/>
 		</Unit>
+		<Unit filename="C:/Users/Matheus/Desktop/Hashc/src/xmalloc.c">
+			<Option target="Hashc"/>
+		</Unit>
+		<Unit filename="C:/Users/Matheus/Desktop/Hashc/src/xmalloc.h">
+			<Option target="Hashc"/>
+		</Unit>
 		<Unit filename="C:/Users/Matheus/Desktop/Hashc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

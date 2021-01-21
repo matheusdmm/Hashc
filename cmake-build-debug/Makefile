@@ -223,6 +223,33 @@ src/prime.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/src/prime.c.s
 .PHONY : src/prime.c.s
 
+src/xmalloc.obj: src/xmalloc.c.obj
+
+.PHONY : src/xmalloc.obj
+
+# target to build an object file
+src/xmalloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/src/xmalloc.c.obj
+.PHONY : src/xmalloc.c.obj
+
+src/xmalloc.i: src/xmalloc.c.i
+
+.PHONY : src/xmalloc.i
+
+# target to preprocess a source file
+src/xmalloc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/src/xmalloc.c.i
+.PHONY : src/xmalloc.c.i
+
+src/xmalloc.s: src/xmalloc.c.s
+
+.PHONY : src/xmalloc.s
+
+# target to generate assembly for a file
+src/xmalloc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hashc.dir\build.make CMakeFiles/Hashc.dir/src/xmalloc.c.s
+.PHONY : src/xmalloc.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -241,6 +268,9 @@ help:
 	@echo ... src/prime.obj
 	@echo ... src/prime.i
 	@echo ... src/prime.s
+	@echo ... src/xmalloc.obj
+	@echo ... src/xmalloc.i
+	@echo ... src/xmalloc.s
 .PHONY : help
 
 
