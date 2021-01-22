@@ -3,4 +3,4 @@ project(Hashc C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Hashc src/main.c src/hash_table.c src/hash_table.h src/prime.c src/prime.h src/xmalloc.c src/xmalloc.h)
+add_executable(Hashc main.c hash_table.c hash_table.h prime.c prime.h xmalloc.c xmalloc.h)

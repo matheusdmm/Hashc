@@ -15,7 +15,7 @@ static const int HT_PRIME_2 = 145;
 static ht_item HT_DELETED_ITEM = {NULL, NULL};
 
 ht_hash_table* ht_new() {
-    return ht_new_sized(HT_INITIAL_BASE_SIZE);
+    return ht_new_size(HT_INITIAL_BASE_SIZE);
 }
 
 static void ht_resize_up(ht_hash_table* ht) {
@@ -73,7 +73,7 @@ static void ht_resize(ht_hash_table* ht, const int base_size) {
         return;
     }
 
-    ht_hash_table* new_ht = ht_new_sized(base_size);
+    ht_hash_table* new_ht = ht_new_size(base_size);
     for (int i = 0; i < ht -> size; i++) {
         ht_item* item = ht -> items[i];
         if (item != NULL && item != &HT_DELETED_ITEM) {
@@ -105,7 +105,7 @@ static int ht_get_hash(
     return (hash_a + (attempt * (hash_b + 1))) % num_buckets;
 }
 
-static ht_hash_table* ht_new_sized(const int base_size) {
+static ht_hash_table* ht_new_size(const int base_size) {
     ht_hash_table* ht = xmalloc(sizeof(ht_hash_table));
     ht -> base_size = base_size;
 
