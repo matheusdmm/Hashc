@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Hashc.dir/objects.a
-C:\minGW\bin\ar.exe cr CMakeFiles\Hashc.dir/objects.a @CMakeFiles\Hashc.dir\objects1.rsp
-C:\minGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Hashc.dir/objects.a -Wl,--no-whole-archive  -o Hashc.exe -Wl,--out-implib,libHashc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Hashc.dir\linklibs.rsp
